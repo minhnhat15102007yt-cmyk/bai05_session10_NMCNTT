@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bài 5_session10</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="phần-1-.-xác-định-input-output-và-sơ-đồ-phối-hợp-phần-cứng-của-hệ-thống-trang-trại">Phần 1 . Xác định Input Output và sơ đồ phối hợp phần cứng của hệ thống trang trại</h2>
+<ul>
+<li><strong>Input :</strong> Tín hiệu điện từ cảm biến độ ẩm đất và cảm biến nhiệt độ không khí , lệnh cấu hình thủ công từ người dùng qua giao diện.</li>
+<li><strong>Output :</strong> Trạng thái đóng mở của rơ-le máy bơm nước , bản ghi nhật ký dữ liệu trên màn hình hệ thống.</li>
+</ul>
+<h1 id="phần-2--file-readme.md-hoàn-chỉnh-theo-chuẩn-kỹ-sư-phần-mềm-chuyên-nghiệp.">Phần 2 : File <a href="http://README.md">README.md</a> hoàn chỉnh theo chuẩn kỹ sư phần mềm chuyên nghiệp.</h1>
+<h2 id="smart-farm">Smart-Farm</h2>
+<p><strong>Smart-Farm</strong> là hệ thống IoT giúp trang trại Lan theo dõi môi trường và tưới cây tự động.</p>
+<h2 id="hướng-dẫn-cài-đặt">Hướng dẫn cài đặt</h2>
+<p>sudo apt update<br>
+sudo apt install python3 -y<br>
+mkdir -p ~/Smart-Farm<br>
+cd ~/Smart-Farm</p>
+<h2 id="tính-năng">Tính năng</h2>
+<ul>
+<li>Đo nhiệt độ và độ ẩm.</li>
+<li>Tự động tưới cây.</li>
+<li>Cảnh báo môi trường bất thường.</li>
+<li>Lưu nhật ký hoạt động.</li>
+</ul>
+<h2 id="bảng-thông-số">Bảng thông số</h2>
+<ul>
+<li><strong>Thông số</strong></li>
+<li><strong>Giá trị mẫu</strong></li>
+<li><strong>Nhiệt độ</strong> : 32°C</li>
+<li><strong>Độ ẩm đất</strong> : 35%</li>
+<li><strong>Ngưỡng tưới</strong> : 40%</li>
+</ul>
+<h2 id="chu-kỳ-cpu">Chu kỳ CPU</h2>
+<blockquote>
+<p><strong>Fetch:</strong> Lấy lệnh từ RAM. <strong>Decode:</strong> Giải mã lệnh. <strong>Execute:</strong> Thực thi lệnh bật máy bơm.</p>
+</blockquote>
+<h1 id="phần-3.-kiểm-thử-và-lưu-ý">PHẦN 3. KIỂM THỬ VÀ LƯU Ý</h1>
+<h2 id="tình-huống">Tình huống</h2>
+<p>Tiến trình xử lý nhật ký chiếm nhiều RAM khiến hệ thống chạy chậm.<br>
+<strong>Kiểm tra RAM:</strong> free -h<br>
+<strong>Kiểm tra tiến trình:</strong> top<br>
+<strong>Xem 50 dòng cuối của log:</strong> tail -n 50 logs/app.log</p>
+</div>
+</body>
+
+</html>
